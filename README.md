@@ -21,7 +21,6 @@ This project demonstrates a simple implementation of WebAuthn (Web Authenticatio
 
     ```bash
     git clone https://github.com/HashirImteyaz/web_authentication
-    cd webauthn-example
     ```
 
 2. Install dependencies:
