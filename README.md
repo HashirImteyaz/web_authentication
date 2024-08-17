@@ -12,7 +12,9 @@ This project demonstrates a simple implementation of WebAuthn (Web Authenticatio
 
 - Node.js (v14 or later)
 - npm or yarn
-
+- express: Web framework for Node.js.
+- @simplewebauthn/server: Library for handling WebAuthn server-side logic.
+- crypto: Node.js built-in module for cryptographic functions.
 ## Getting Started
 
 ### Installation
@@ -39,3 +41,10 @@ Start the Express server:
 npm start
 # or
 yarn start
+```
+
+The server will start on http://localhost:3000.
+
+### Accessing the Login and Signup Pages
+- Signup Page: Open http://localhost:3000/signup.html in your browser.
+- Login Page: Open http://localhost:3000/login.html in your browser.
